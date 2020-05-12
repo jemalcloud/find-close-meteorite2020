@@ -6,7 +6,9 @@ A demo project that uses Python and nasa data to find the distance to meteor lan
 
 This project requires Python 3 and the requests package
 
-Assume python3 installed in your machine then install requests package
-`pip3 install requests`
+First, install pipenv. Then:
 
-Then run the code `python3 find_meteors.py`
+```
+pipenv install
+pipenv run "python find_meteors.py"
+```
